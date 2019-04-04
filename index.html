@@ -10,9 +10,10 @@
 </head>
 
 <body>
-    <div class='game'>
+    <nav>Games</nav>
+    <div class='game' style='display:none;'>
         <p id='close'>×</p>
-        <object data="games/run3.swf" type="application/x-shockwave-flash" id='game'>
+        <object data="games/run3.swf" type="application/x-shockwave-flash" id='game' >
             <param name="base" value="game.swf">
             <param name="quality" value="autohigh">
             <param name="allowFullScreen" value="false">
@@ -24,7 +25,7 @@
             <param value="internal" name="allownetworking">
         </object>
     </div>
-
+    <div class='options-container'>
     <div class='container' onclick='load(this);' data-file='run2.swf'>
         <p>Run 2</p>
     </div>
@@ -66,7 +67,7 @@
     </div>
 
     <div class='container' onclick='load(this);' data-file='moto-x3m-4.swf'>
-        <p>Moto x3m 4</p>
+        <p>Moto x3m 3 Winter</p>
     </div>
 
     <div class='container' onclick='load(this);' data-file='shopping-cart-hero.swf'>
@@ -80,7 +81,7 @@
     <div class='container' onclick='load(this);' data-file='decision-2-13701.swf'>
         <p>Decision 2 13701</p>
     </div>
-
+    </div>
     <script src='script.js'></script>
 </body>
 
