@@ -5,7 +5,7 @@ var object = document.getElementById('game');
 var game = document.getElementsByClassName('game')[0];
 
 
-close.addEventListener('click', () => {
+close.addEventListener('click', funciton() {
     game.style.display = 'none';
 });
 
